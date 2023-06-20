@@ -6,6 +6,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "GitFinder",
   description: "GitFinder app search & discover gitHub users bower by next ",
+  icons: {
+    icon: "./favicon.svg",
+  },
 };
 
 export default function RootLayout({ children }) {
